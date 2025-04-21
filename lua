@@ -521,7 +521,7 @@ local player = game.Players.LocalPlayer
 })
 
 local Button = TeleportTab:CreateButton({
-   Name = "Small Shelter",
+   Name = "Shed",
    Callback = function()
 local player = game.Players.LocalPlayer
         local character = player.Character or player.CharacterAdded:Wait()
